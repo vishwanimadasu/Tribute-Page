@@ -1,0 +1,96 @@
+.row{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+ 
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+        background-color: grey;
+    }
+}
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+  
+#tribute-link {
+    color: blue;
+    font-weight: bold;
+}
+  
+#image {
+    max-width: 500px;
+    display: block;
+}
+  
+#img-caption {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+  
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+
+    font-size:50;
+   
+    text-decoration: underline;
+
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.c{
+    text-align: justify;
+    text-align-last: center;
+}
+.d{
+    margin: auto;
+    text-align: justify;
+    
+}
+footer.footer {
+    height: 30px;
+    width: 100%;
+    background-color: #8a8484;
+}
+
+p.copyright {
+    color: black;
+    line-height: 30px;
+    font-size: 0.7em;
+    text-align: end;
+}
